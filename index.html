@@ -1,1 +1,53 @@
-<!-- To Do List Web Application based on the Eisenhower Principle with drag and drop function-->
+
+<!-- To Do List Web Application based on the Eisenhower Principle-->
+
+<!DOCTYPE html>
+    <html>
+
+        <body>
+            <head>
+
+            </head> 
+
+            <main style="border: solid 2px">
+                <div id="main-addTask" style="border: solid 2px">
+                    <h2>Collect Your Tasks</h2>
+                    Collect all your tasks here to prioritize them correctly in the Eisenhower matrix
+                    <form id = "main-addTask-form">
+                        <!--<label for = "addTask">öadfaödföa dfödsjfadjöad <br>ödjsföadjaödjösdj ldjfalkdjöasdjf </label> <br>-->
+                        <input type = "text" name= "addTask" id = "addTask" placeholder="write task here and push enter"> 
+                    </form>
+                </div>
+
+                <div id="eisenhowerMatrix" style="border: solid 2px">
+                    <h2>Prioritize by the Eisenhower Principle</h2>
+                    <table>
+                        <caption>Eisenhower Matrix</caption>
+                        <tr>
+                            <td class="block"> </td>
+                            <td class="block">urgent</td>
+                            <td class="block">not urgent</td>
+                        </tr>
+                        <tr>
+                            <!-- rotate important with style = "transform: rotate(-90deg);"-->
+                            <td class="block" ><p >important</p></td>
+                            <td class="block">tasks</td>
+                            <td class="block">tasks</td>
+                        </tr>
+                        <tr>
+                            <!-- rotate not important with style = "transform: rotate(-90deg);"-->
+                            <td class="block">not important</td>
+                            <td class="block">tasks</td>
+                            <td class="block">tasks</td>
+                        </tr>
+                    </table>
+                </div>
+            </main>
+    
+            <footer>
+
+
+            </footer>
+        </body>
+    </html>
+
