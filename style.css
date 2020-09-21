@@ -1,6 +1,9 @@
 
 
-
+.page-style {
+    background-color: black;
+    color: white;
+}
 
 .container-footer {
     display: flex;
@@ -19,10 +22,6 @@
     background-color: lightgrey;
     width: 300px;
     height: 100px;
-    
-
-   
-    
 
 }
 

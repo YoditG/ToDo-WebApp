@@ -5,24 +5,39 @@
 <!DOCTYPE html>
     <html>
 
-        <body>
+        <body class = "page-style">
             <head>
-          <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css"/>
-
+                <meta charset="UTF-8" />
+                <link rel="stylesheet" href="style.css"/>
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+                <script src = "index.js"></script>
             </head> 
 
             <main style="border: solid 2px">
-                <div id="main-addTask" style="border: solid 2px">
+                <div class = "row">
+                <div id="main-addTask" class="col-5">
                     <h2>Collect Your Tasks</h2>
                     Collect all your tasks here to prioritize them correctly in the Eisenhower matrix
                     <form id = "main-addTask-form">
                         <!--<label for = "addTask">öadfaödföa dfödsjfadjöad <br>ödjsföadjaödjösdj ldjfalkdjöasdjf </label> <br>-->
                         <input type = "text" name= "addTask" id = "addTask" placeholder="write task here and push enter"> 
                     </form>
+                    
+                    <div id = "dropHere"  ondragstart="{drag(event)}" ondrop = "{drop(event)}" ondragover="{dragover(event)}" style="background-color: green;">
+                        prioritize your tasks in the Eisenhower matrix by drag and drop
+                        <p draggable = "true" id="task1">
+                            drag and drop this text 1.
+                        </p>
+                        
+                        <p draggable = "true" id="task1">
+                            drag and drop this text 2.
+                        </p> 
+                    </div>
+                
+                    
                 </div>
 
-                <div id="eisenhowerMatrix" style="border: solid 2px">
+                <div id="eisenhowerMatrix" style="border: solid 2px" class="col-7">
                     <h2>Prioritize by the Eisenhower Principle</h2>
                     <table>
                         <caption>Eisenhower Matrix</caption>
@@ -33,9 +48,13 @@
                         </tr>
                         <tr>
                             <!-- rotate important with style = "transform: rotate(-90deg);"-->
-                            <td class="block" ><p >important</p></td>
-                            <td class="block">tasks</td>
-                            <td class="block">tasks</td>
+                        <td class="block" ><p >important</p></td>
+                        <td class="block"  >
+                            <div id = "dropHere"  ondragstart="{drag(event)}" ondrop = "{drop(event)}" ondragover="{dragover(event)}" style="background-color: green;">
+                                tasks
+                            </div>
+                        </td>
+                        <td class="block">tasks</td>
                         </tr>
                         <tr>
                             <!-- rotate not important with style = "transform: rotate(-90deg);"-->
@@ -45,13 +64,14 @@
                         </tr>
                     </table>
                 </div>
+            </div>
             </main>
     
      <footer>
          <div class= "container-footer">
         
         <div class = "left-section-footer">
-            <img src = '/Images/facebook.png' class= "image"/>
+            <img src = '/Images/facebook.png' class= "image" />
             <img src = '/Images/instagram-sketched.png' class= "image"/>
             <img src = '/Images/twitter.png' class= "image"/>
             <img src = '/Images/youtube.png' class= "image"/>

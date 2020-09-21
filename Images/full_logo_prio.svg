@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="232.63771mm"
+   height="90.688057mm"
+   viewBox="0 0 232.63772 90.688057"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="full_logo_prio.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.63"
+     inkscape:cx="389.83518"
+     inkscape:cy="187.03855"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="703"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(65.252726,-116.65281)">
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.64807987;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4559"
+       width="258.99689"
+       height="99.440361"
+       x="-92.392685"
+       y="117.43359" />
+    <circle
+       id="path3713"
+       cx="91.138908"
+       cy="165.50339"
+       style="fill:#0083d6;fill-opacity:0.65866667;fill-rule:nonzero;stroke:#00578a;stroke-width:1.26;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       r="31.003265" />
+    <circle
+       id="path3713-3"
+       cx="91.272545"
+       cy="165.50339"
+       style="fill:#000000;fill-opacity:1;stroke:#01578a;stroke-width:1.01465964;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       r="25.246004" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#feffff;stroke-width:0.4015651px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 59.918601,151.95049 31.35578,36.1461 c 0,0 22.178469,-46.04325 69.594519,-63.68598 -57.95718,21.20713 -70.741681,49.48573 -70.741681,49.48573 z"
+       id="path4557"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4622"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#01578a;fill-opacity:1;stroke:#01578a;stroke-opacity:1"
+       transform="matrix(2.4598423,0,0,2.0837064,1085.1237,71.491154)"><flowRegion
+         id="flowRegion4624"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:serif;-inkscape-font-specification:serif;fill:#01578a;fill-opacity:1;stroke:#01578a;stroke-opacity:1"><rect
+           id="rect4626"
+           width="464.67017"
+           height="234.35539"
+           x="-474.7717"
+           y="23.86331"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:serif;-inkscape-font-specification:serif;fill:#01578a;fill-opacity:1;stroke:#01578a;stroke-opacity:1" /></flowRegion><flowPara
+         id="flowPara4628"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:serif;-inkscape-font-specification:serif;fill:#01578a;fill-opacity:1;stroke:#01578a;stroke-opacity:1">pri</flowPara></flowRoot>  </g>
+</svg>

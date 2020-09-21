@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="120.08274mm"
+   height="87.747749mm"
+   viewBox="0 0 120.08274 87.747749"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="logo_prio.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="171.4538"
+     inkscape:cy="211.7476"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="703"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-45.933317,-114.41326)">
+    <g
+       id="g4574">
+      <rect
+         y="114.93491"
+         x="46.454975"
+         height="86.704437"
+         width="119.03943"
+         id="rect4559"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.04331565;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         transform="translate(-0.26726922,88.198944)"
+         id="g4567">
+        <circle
+           id="path3713"
+           cx="91.406181"
+           cy="77.304443"
+           style="fill:#0000ff;fill-opacity:1;stroke:#0000fe;stroke-width:1.25999999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="31.003265" />
+        <circle
+           id="path3713-3"
+           cx="91.673454"
+           cy="77.304443"
+           style="fill:#000000;fill-opacity:1;stroke:#0000ff;stroke-width:0.89778715;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="22.631746" />
+        <path
+           style="fill:#ffffff;fill-opacity:1;stroke:#feffff;stroke-width:0.4015651px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 60.720409,55.466185 31.35578,36.146101 c 0,0 22.178471,-46.043245 69.594521,-63.685983 -57.95718,21.207133 -70.741683,49.485733 -70.741683,49.485733 z"
+           id="path4557"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccc" />
+      </g>
+    </g>
+  </g>
+</svg>
