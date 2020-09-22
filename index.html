@@ -4,47 +4,39 @@
 
 <!DOCTYPE html>
     <html>
-
+    <head>
+            <meta charset="UTF-8" />
+            <link rel="stylesheet" href="style.css"/>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+  
+    </head> 
         <body>
-            <head>
-          <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css"/>
-
-            </head> 
-
-            <main style="border: solid 2px">
-                <div id="main-addTask" style="border: solid 2px">
-                    <h2>Collect Your Tasks</h2>
-                    Collect all your tasks here to prioritize them correctly in the Eisenhower matrix
-                    <form id = "main-addTask-form">
-                        <!--<label for = "addTask">öadfaödföa dfödsjfadjöad <br>ödjsföadjaödjösdj ldjfalkdjöasdjf </label> <br>-->
-                        <input type = "text" name= "addTask" id = "addTask" placeholder="write task here and push enter"> 
-                    </form>
+         <main>
+            <div class= "container">
+                <div class="addTask-container">
+                    <h2>Add your task below</h2>
+                    <input id="inputField" type="text"><button id="addTaskButton">+</button>
+                    <div class="to-dos" id="toDoContainer">
+                    </div>
                 </div>
-
-                <div id="eisenhowerMatrix" style="border: solid 2px">
-                    <h2>Prioritize by the Eisenhower Principle</h2>
+               
+                
+ 
+                <div id="eisenhowerMatrix">
+                    <h1>Eisenhower Matrix</h1>
+                    <h4>Drag your task into one of the boxes below, depending on its importance:</h4>
                     <table>
-                        <caption>Eisenhower Matrix</caption>
                         <tr>
-                            <td class="block"> </td>
-                            <td class="block">urgent</td>
-                            <td class="block">not urgent</td>
+                            <th class= "do-block">Do</th>
+                            <th class= "decide-block">Decide</th>
                         </tr>
                         <tr>
-                            <!-- rotate important with style = "transform: rotate(-90deg);"-->
-                            <td class="block" ><p >important</p></td>
-                            <td class="block">tasks</td>
-                            <td class="block">tasks</td>
-                        </tr>
-                        <tr>
-                            <!-- rotate not important with style = "transform: rotate(-90deg);"-->
-                            <td class="block">not important</td>
-                            <td class="block">tasks</td>
-                            <td class="block">tasks</td>
+                            <th class= "not-important-block">Delegate</th>
+                            <th class= "delete-block">Delete</th>
                         </tr>
                     </table>
                 </div>
+            </div>
             </main>
     
      <footer>
@@ -75,8 +67,7 @@
             </p>
     
         </div>
-
-
-            </footer>
+         </footer>
+    <script defer src= "index.js"></script>
         </body>
     </html>
