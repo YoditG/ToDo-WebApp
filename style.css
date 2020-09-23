@@ -191,7 +191,7 @@ th {
     border-left: 2px solid lightblue;
     height: 60px;
     position: bottom;
-    right: 50%
+    right: 50%;
     margin-right: 0px;
     margin-bottom: 20px;
     top: 0;
@@ -228,4 +228,9 @@ img {
     font-family: 'Roboto', sans-serif;
 
 
+}
+
+.task-description-text-area {
+    width: 250px;
+    height: 125px;
 }
