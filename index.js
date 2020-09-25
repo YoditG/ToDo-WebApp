@@ -46,7 +46,8 @@ const createNewTask = () => {
     // Create edit and delete buttons
     const editButton = document.createElement("button");
     editButton.classList.add("edit-button");
-    editButton.innerText = "Edit";
+    //editButton.innerText = "Edit"; //*** OUT **//
+    editButton.innerHTML = '<i class="fas fa-pencil-alt"></i>'; //*** IN **//
 
     // Add event listener for the edit button
     editButton.addEventListener("click", editTask);
@@ -105,7 +106,8 @@ const createNewTask = () => {
     }
 
     const deleteButton = document.createElement("button");
-    deleteButton.innerText = "Delete";
+    // deleteButton.innerText = "Delete";       //*** OUT **//
+    deleteButton.innerHTML = '<i class="fas fa-trash-alt"></i>';  //*** IN **//
     deleteButton.classList.add("delete-button");
 
     // Add event listener to delete button

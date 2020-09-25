@@ -1,5 +1,126 @@
 
+/* --------------------------------- HTML & BODY --------------------------------------------- */
+/**********************************************************/
+/*                       NEW START                        */
+/**********************************************************/
 
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  display: block;
+  line-height: 1.5;
+  background-color:#242424; /** IN **/
+  height: 100%;
+  margin: 0%;
+}
+
+h1, h2, h4 {
+    font-weight: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    background-color: #212121;
+    color: white;
+    box-shadow: 5px 10px 8px#141414;
+}
+
+.addTask-container, #eisenhowerMatrix {
+    box-shadow: 10px 10px 8px#141414;
+}
+
+.header-middle {
+list-style: none;
+display: flex;
+}
+
+.logo, .header-middle > li  {
+    margin-left: 1.5rem;
+}
+
+.log-in {
+    margin-right: 1.5rem;
+}
+
+.fa-pencil-alt,
+.fa-trash-alt {
+    font-size: 130%;
+}
+
+.fa-plus-square {
+    font-size: 130%;
+}
+
+.task-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 1px lightblue; 
+    margin-top: 1.5rem;
+}
+
+.addTask-container{
+    background-color:#212121;
+}
+
+.add-task-header{
+text-align: center;
+}
+
+#inputField {
+    margin-left: 50px;
+}
+
+.task-styling {
+    flex: 1;
+}
+
+.delete-button {
+    margin: 0 1.5rem 0 0.5rem;
+}
+
+#addTaskButton {
+    color: lightblue;
+    background-color: black;
+    height: 35px; 
+    width: 50px; 
+    margin: 5px;
+    border: none; 
+}
+
+#addTaskButton:hover {
+    box-shadow: 5px 10px 8px#141414;
+    width: 55px;
+}
+
+#eisenhowerMatrix > h4 {
+    text-align: center;
+}
+
+.right-section-footer > ul {
+    flex-wrap: wrap;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.right-section-footer > ul > li {
+    margin-left: 1.5rem;
+   
+}
+
+
+/**********************************************************/
+/*                       NEW END                        */
+/**********************************************************/
 
 
 
@@ -7,8 +128,8 @@
 
 .container {
     display:flex;
-    width: 1250px; 
-    background-color: black; 
+    /**width: 1250px; **/   /*** OUT **/
+    margin-bottom: 1.5rem;
     
 }
 
@@ -16,19 +137,21 @@
 
 .addTask-container {
     color: white; 
-    width: 400px;
-    height: 400px;
+    width: 500px; 
+    /** NEW ADDITION **/
+    height: 519px;
     border: solid 2px lightblue; 
     padding: 20px; 
     margin: 10px;
-    
+    margin-left: 1.5rem;  /** NEW ADDITION **/
+    overflow-y: auto; /** NEW ADDITION **/
 }
 
 h2 {
     color: white;
     margin: 10px; 
     padding: 5px; 
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif;*/  /** OUT **/
     
 
 }
@@ -38,10 +161,12 @@ h2 {
     height: 30px; 
     border: solid 2px lightblue; 
     outline: none;
-    font-size: 15px; 
+    /*font-size: 15px; */ /** OUT **/
 
 }
 
+
+/**
 #addTaskButton {
         color: lightblue;
         background-color: black;
@@ -51,6 +176,7 @@ h2 {
         margin: 5px;
         border: none;  
 }
+**/
 
 .todos {
     margin-top: 25px; 
@@ -60,8 +186,8 @@ h2 {
     color: white; 
     margin: 10px;
     cursor: pointer;
-    font-size: 20px; 
-    font-family: 'Roboto', sans-serif;
+    /*font-size: 20px;*//** OUT **/
+    /* font-family: 'Roboto', sans-serif;*/  /** OUT **/
 }
 
 
@@ -69,20 +195,22 @@ h2 {
 /* ------------------------------ EISENHOWER MATRIX SECTION -------------------------------------------- */
 
 #eisenhowerMatrix {
+    background-color:#212121;
     display: table;
     border-collapse: serparate;
     border-spacing: 10px;
-    width: 750px;
-    height: 400px;
+    /* width: 750px; */ /** OUT **/
+    height: 560px;
     margin-left: 20px;
     border: solid 2px lightblue;
     margin: 10px; 
+    margin-right: 1.5rem;  /** NEW ADDITION **/
 }
 
 h1 {
     color: white;
     text-align: center; 
-    font-family: 'Roboto', sans-serif;
+ /* font-family: 'Roboto', sans-serif;*/  /** OUT **/
     margin: 2px; 
 }
 
@@ -90,21 +218,21 @@ h4 {
     color: white;
     margin: 10px; 
     padding: 5px; 
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif;*/  /** OUT **/
 }
 
 th {
-
     border: solid 2px black; 
     width: 400px; 
-    height: 150px;
+    height: 190px;
     margin-bottom: 10px; 
     border-radius: 25px;
+    overflow-y: auto;
 }
 
 .do-block {
     background-color: #8FBC8F;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif;*/  /** OUT **/
     padding: 10px; 
     vertical-align: top;
 }
@@ -113,7 +241,7 @@ th {
 
 .decide-block {
     background-color: #00CED1; 
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif;*/  /** OUT **/
     padding: 10px; 
     vertical-align: top;
     
@@ -124,7 +252,7 @@ th {
 
 .not-important-block {
     background-color: #FFA07A; 
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif;*/  /** OUT **/
     padding: 10px; 
     vertical-align: top;
 }
@@ -134,7 +262,7 @@ th {
 
 .delete-block {
     background-color: #CD5C5C;
-    font-family: 'Roboto', sans-serif;
+ /* font-family: 'Roboto', sans-serif;*/  /** OUT **/
     padding: 10px; 
     vertical-align: top;
 }
@@ -150,33 +278,32 @@ th {
 .container-footer {
     display: flex;
     align-items: flex-end;
-    width: 1250px;
-    height: 100px;
-    background-color: black; 
-    
-    
+    justify-content: space-evenly;
+    /** width: 1250px; **/  /**  OUT **/
+    /** height: 100px; **/ /**  OUT **/
+    /**background-color: black; **/ /**  OUT **/
+    background-color:#242424; /** IN **/
+    box-shadow: 10px -10px 8px#141414;
 }
 
 .left-section-footer  {
     display: flex; 
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    background-color: black;
-    width: 400px;
-    height: 100px;
-    
-
-   
-    
+    /**background-color: black; **/ 
+    background-color:#242424; /** IN **/
+    width: 400px; /**  OUT **/
+  /** height: 100px; **/ /**  OUT **/   
 
 }
 
-.image img {
+.image {
     display:flex;
     align-content: center;
-
-    
+    margin: 0 15px 15px 15px;    
 }
+
+/*
 .vl {
     border-left: 2px solid lightblue;
     height: 60px;
@@ -197,6 +324,7 @@ th {
     top: 0;
 
 }
+*/
 
 
 img {
@@ -210,10 +338,13 @@ img {
     color: white;
     display: flex;
     justify-content: center;
-    background-color: black;
-    width: 400px;
-    height: 100px;
-    font-family: 'Roboto', sans-serif;
+   /** background-color: black; **/  /** OUT **/
+    background-color:#242424; /** IN **/
+    /*width: 400px; */ /** OUT **/
+    width: 200px; /** ADDED **/
+    /** height: 100px; **/ /**  OUT **/
+    
+    /* font-family: 'Roboto', sans-serif;*/  /** OUT **/
     
 
 }
@@ -222,10 +353,11 @@ img {
     color: white;
     display: flex;
     justify-content: center; 
-    background-color: black;
+    /*background-color: black;*/ /** OUT **/
+    background-color:#242424; /** IN **/
     width: 400px;
-    height: 100px;
-    font-family: 'Roboto', sans-serif;
+   /** height: 100px; **/ /**  OUT **/
+  /* font-family: 'Roboto', sans-serif;*/  /** OUT **/
 
 
 }

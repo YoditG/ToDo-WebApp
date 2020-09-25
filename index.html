@@ -7,20 +7,51 @@
     <head>
             <meta charset="UTF-8" />
             <link rel="stylesheet" href="style.css"/>
-            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+            
   
+            <!--NEW START-->
+
+            <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+            integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+            crossorigin="anonymous"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap"
+            rel="stylesheet"
+          />
+            
     </head> 
         <body>
          <main>
+    <header class="header">
+        <div class="logo">
+            <p>
+                Our Logo
+            </p>
+         </div>
+         <ul class="header-middle">
+             <li><a href="https://luxafor.com/the-eisenhower-matrix/">principle</a></li>
+             <li><a href="#">Forum</a> </li>
+             <li><a href="#">Community</a></li>
+         </ul>
+         <div class="log-in">
+             <p>
+               <a href="#"> Log In</a>
+             </p>
+            
+         </div>
+    </header>
+    <!--NEW END-->
+
             <div class= "container">
                 <div class="addTask-container">
-                    <h2>Add your task below</h2>
-                    <input id="inputField" type="text"><button id="addTaskButton">+</button>
+                    <h2 class="add-task-header">Add your task below</h2>
+                    <input id="inputField" type="text"><button id="addTaskButton"><i class="fas fa-plus-square"></i></button>
                     <div class="to-dos" id="toDoContainer">
                     </div>
                 </div>
-               
-                
  
                 <div id="eisenhowerMatrix">
                     <h1>Eisenhower Matrix</h1>
@@ -39,35 +70,29 @@
             </div>
             </main>
     
-     <footer>
+    <footer>
          <div class= "container-footer">
         
-        <div class = "left-section-footer">
-            <img src = '/Images/facebook.png' class= "image"/>
-            <img src = '/Images/instagram-sketched.png' class= "image"/>
-            <img src = '/Images/twitter.png' class= "image"/>
-            <img src = '/Images/youtube.png' class= "image"/>
-        </div>
-
-        <div class= "vl"></div>
+            <div class = "left-section-footer">
+                <a href="#"><img src = 'Images/facebook2.png' class= "image"/></a>
+                <a href="#"><img src = 'Images/instagram2.png' class= "image"/></a>
+                <a href="#"><img src = 'Images/twitter2.png' class= "image"/></a>
+                <a href="#"><img src = 'Images/youtube2.png' class= "image"/></a>
+            </div>
     
-        <div class= center-section-footer>
-            <p>Wisen Up</p>
-
-        </div>
-
-        <div class= "vl-2"></div>
+            <div class= center-section-footer>
+                <p><a href="#">prior</a></p>
+            </div>
     
-        <div class= right-section-footer>
-
-            <p>About Wisen Up<br>
-                    Forum<br>
-               Privacy policy<br>
-               Contact Us<br>
-            </p>
-    
-        </div>
-         </footer>
+            <div class= right-section-footer>
+    <!-- Change the <p> tag with <br> inbetween to <ul> -->
+                <ul>
+                <li><a href="#">About prior</a></li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+        </footer>
     <script defer src= "index.js"></script>
         </body>
     </html>
